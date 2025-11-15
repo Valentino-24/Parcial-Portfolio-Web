@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Valentino Lorca</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👨‍💻</text></svg>">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="sitio">
+    <header class="present">
+      <div class="present__izquierda">
+        <h1 class="present__titulo">
+          <span class="present__saludo">Hola, soy</span>
+          <span class="present__nombre">Valentino Lorca</span>
+        </h1>
+
+        <p class="present__descripcion">
+          Estudiante de la tecnicatura en programación, apasionado por el desarrollo web y el diseño de interfaces.
+        </p>
+
+        <div class="present__meta">
+          <div class="present__meta-item"><strong>Contacto:</strong> valentinolorca@gmail.com</div>
+        </div>
+
+        <div class="present__acciones">
+          <a class="btn btn--principal" href="#proyectos">Mis proyectos</a>
+          <a class="btn btn--outline" href="#contacto">Contactame</a>
+        </div>
+      </div>
+
+      <div class="present__derecha">
+        <div class="marco">
+          <img class="marco__foto" src="img/fotoPerfil.png" alt="Foto de Perfil">
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre-mi" class="panel sobre">
+      <h2 class="panel__titulo">Sobre mí</h2>
+      <p class="sobre__texto">
+        Apasionado por la tecnología y el aprendizaje constante. Me gusta resolver problemas, crear proyectos prácticos y seguir creciendo en el mundo del desarrollo.
+      </p>
+
+      <h2 class="panel__titulo">Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <span class="skill__texto">HTML</span>
+          <img class="skill__icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        </div>
+
+        <div class="skill">
+          <span class="skill__texto">CSS</span>
+          <img class="skill__icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        </div>
+
+        <div class="skill">
+          <span class="skill__texto">JS</span>
+          <img class="skill__icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        </div>
+
+        <div class="skill">
+          <span class="skill__texto">SQL</span>
+          <img class="skill__icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        </div>
+
+        <div class="skill">
+          <span class="skill__texto">Java</span>
+          <img class="skill__icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="panel proyectos">
+      <h2 class="panel__titulo">Proyectos</h2>
+
+      <div class="proyectos__contenedor">
+        <article class="proyecto">
+          <img class="proyecto__imagen" src="img/proyectoFoodStore.png" alt="FoodStore">
+          <div class="proyecto__info">
+            <h3 class="proyecto__titulo">FoodStore</h3>
+            <a class="proyecto__boton" href="https://github.com/Valentino-24/Captain-Burger-Front" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <img class="proyecto__imagen" src="img/proyectoMeditacionWeb.png" alt="Meditacion Web">
+          <div class="proyecto__info">
+            <h3 class="proyecto__titulo">Meditación Web</h3>
+            <a class="proyecto__boton" href="https://github.com/Valentino-24/Meditacion-Web" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <img class="proyecto__imagen" src="img/proyectoFoodStore.png" alt="FoodStore">
+          <div class="proyecto__info">
+            <h3 class="proyecto__titulo">FoodStore</h3>
+            <a class="proyecto__boton" href="https://github.com/Valentino-24/Captain-Burger-Front" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <img class="proyecto__imagen" src="img/proyectoFoodStore.png" alt="FoodStore">
+          <div class="proyecto__info">
+            <h3 class="proyecto__titulo">FoodStore</h3>
+            <a class="proyecto__boton" href="https://github.com/Valentino-24/Captain-Burger-Front" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="panel contacto">
+      <h2 class="panel__titulo">Envíame un mensaje</h2>
+
+      <form id="formulario-contacto" class="formulario" autocomplete="off">
+        <div class="formulario__cols">
+          <label class="formulario__label">
+            <span>Tu nombre</span>
+            <input class="formulario__input" type="text" name="name" placeholder="Ingresa tu nombre" required />
+          </label>
+
+          <label class="formulario__label">
+            <span>Email</span>
+            <input class="formulario__input" type="email" name="email" placeholder="Ingresa tu email" required />
+          </label>
+        </div>
+
+        <label class="formulario__label">
+          <span>Tu mensaje</span>
+          <textarea class="formulario__textarea" name="message" rows="5" placeholder="Hola, necesito este diseño..." required></textarea>
+        </label>
+
+        <div class="formulario__acciones">
+  <button class="btn btn--principal" type="submit">Enviar →</button>
+
+  <div class="redes">
+    <a href="https://github.com/Valentino-24" target="_blank" class="redes__item">
+      <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" class="redes__icono" style="filter: invert(1);" alt="GitHub">
+
+    </a>
+
+    <a href="https://www.linkedin.com/in/valentino-lorca-ferreyra-417840243/" target="_blank" class="redes__item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" class="redes__icono" alt="LinkedIn">
+    </a>
+  </div>
+</div>
+
+      </form>
+    </section>
+
+    <footer class="pie">
+      <div class="pie__texto">© <span id="anio"></span> Valentino Lorca</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
